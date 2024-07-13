@@ -1,0 +1,8 @@
+.text-center li{
+    letter-spacing: .1rem;
+    font-size: 1.2rem;
+}
+.text-center li:hover{
+    background-color: lightblue;
+    font-weight: bold;
+}

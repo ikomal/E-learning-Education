@@ -1,0 +1,43 @@
+.check
+{
+    background-color: green;
+    display: flex;
+    
+    max-height: 150vh;
+}
+.left{
+    width: 20%;
+    background-color: white;
+    border: solid black .2px;
+    height: auto;
+    overflow-y: scroll;
+    cursor: pointer;
+}
+
+.leftbar-title{
+    display: grid;
+    justify-content: center;
+    padding: .5rem 0rem;
+    font-weight: 400;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+.leftbar-title:hover{
+   
+    background-color: #16cbfc;
+    border: solid black .1rem;
+    font-weight: bold;
+}
+
+
+.main{
+    background-color: #000814;
+   
+    width: 80%;
+    border: solid black .2px;
+    height: 100vh;
+    overflow-y: scroll;
+    
+
+}
